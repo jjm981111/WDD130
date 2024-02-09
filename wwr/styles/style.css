@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +9,7 @@ nav a{
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -41,6 +44,10 @@ main section {
 
 body {
     background-color: #e9edc9;
+    font-family: 'Oswald', 'Times New Roman', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -53,6 +60,10 @@ header {
     background-color: #ccd5ae;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book :hover{
@@ -64,6 +75,10 @@ header {
     background-color: #d4a373;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join :hover{
@@ -73,6 +88,8 @@ header {
 
 .msg {
     background-color: #ccd5ae;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2{
@@ -81,11 +98,15 @@ header {
 
 .msg p{
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #ccd5ae;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a{
@@ -107,6 +128,13 @@ footer p a:hover{
 
 .home-title{
     color: black;
+    font-family: 'Montserrat', 'Tahoma', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h2{
+    margin: 0;
 }
 
 h4{
@@ -117,7 +145,30 @@ h4{
     width: 80px;
 }
 
-.icon {
-    width: 80px;
+#logo_link{
+    padding-top: 5px;
 }
 
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+.mountains{
+    margin: 100px 0;
+}
+
+main section img {
+    box-sizing: border-box;
+}
